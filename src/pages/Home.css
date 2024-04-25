@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.Heading{
+    width: 1703px;
+    height: 75px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.catalog{
+    background-color: white;
+    border: 1px solid;
+    font-size: 20px;
+
+}
+
+.catalog_icon{
+    width: 30px;
+    height: 30px;
+    transform: translateY(20%);
+    margin-right: 2px;
+}
+
+.catalog{
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.catalog:hover{
+    background-color: lightgray;
+}
+
+.home_boxes{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1410px;
+    margin-top: 70px;
+}
+
+.home_titles{
+    font-size: 36px;
+    transform: translateY(130%);
+}
+
+.catalog_block{
+    margin: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+}
+
+.catalog_block:hover{
+    border:2px solid;
+}
+
+.catalog_picture{
+    width: 185px;
+    height: 185px;
+}
+
+.for_you{
+    font-size: 35px;
+    margin-right: 1270px;
+    transform: translateY(100%);
+}

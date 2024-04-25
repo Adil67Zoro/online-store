@@ -1,0 +1,90 @@
+.title_cart{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.phone_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_box {
+    width: 1100px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+.right_box {
+    width: 450px;
+    height: 400px;
+}
+
+.checkout{
+    background-color: white;
+    border: 2px solid;
+    border-radius: 16px;
+    transition: color 0.2s ease;
+    font-size: 28px;
+    padding: 7px;
+    margin-top: 25px;
+}
+
+.checkout:hover{
+    background-color:#161617;
+    color:white;
+}
+
+.checkout_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    transform: translateY(-10%);
+}
+
+.pay_with_card{
+    font-size: 34px;
+    transform: translateY(-100%);
+}
+
+.email{
+    font-size: 25px;
+    border: 1px solid;
+    transform: translateY(-20%);
+}
+
+.card_info{
+    font-size: 28px;
+}
+
+.checkout_input_area{
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout_input{
+    border: 1px solid;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.continue{
+    font-size: 25px;
+    background-color: white;
+    border: 1px solid ;
+    transition: color 0.2s ease;
+}
+
+.continue:hover{
+    background-color: #161617;
+    color: white;
+}
+
+.error{
+    color: red;
+    font-size: 20px;
+    transform: translateY(-30%);
+}

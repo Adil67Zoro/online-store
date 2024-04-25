@@ -1,0 +1,42 @@
+.profile_container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.my_orders{
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.changepassword{
+    background-color: #5aa4ef;
+    color: #161617;
+    border: none;
+    border-radius: 16px;
+    font-size: 19px;
+    padding: 10px;
+    margin: 10px;
+    transition: 0.2s ease;
+}
+
+.changepassword:hover{
+    background-color: #2067ff;
+    color: white;
+}
+
+.account_box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    text-align: center;
+    font-size: 15px;
+}
+
+.account_profile{
+    width: 80px;
+    margin-top: 10px;
+}

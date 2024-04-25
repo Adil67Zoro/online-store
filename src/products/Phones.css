@@ -1,0 +1,9 @@
+.phone_box{
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 1410px;
+    margin-left: 190px;
+    margin-top: 70px;
+}
